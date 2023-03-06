@@ -2,14 +2,15 @@
 This project demonstrates how to automate testing of the borrowing calculator on given website using Selenium, Cucumber, and Webdriver. The tests are written in Java.
 
 ## Prerequisites:
-Java JDK 8 or higher
-Maven 3.6 or higher
-Eclipse or any other IDE that supports Java
-Getting started
-Clone this repository to your local machine.
-Open Eclipse or your IDE of choice, and import the project as a Maven project.
-Download the latest version of chromedriver and add it to your system PATH.
-# Run the TestRunner.java 
+- Java JDK 8 or higher
+- Maven 3.6 or higher
+- Eclipse or any other IDE that supports Java
+### Getting started
+1. Clone this repository to your local machine.
+2. Open Eclipse or your IDE of choice, and import the project as a Maven project.
+3. Download the latest version of chromedriver and add it to your system PATH.
+# Run It
+execute TestRunner.java as java application.
 file located in the src/test/java folder as a JUnit test.
 ## Run from bash terminal
 ```
