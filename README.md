@@ -20,8 +20,7 @@ Also, make sure that you have set the webdriver.chrome.driver system property to
 The project is organized as follows:
 
 ```
-css
-Copy code
+
 ├── src
 │   ├── main
 │   │   └── java
