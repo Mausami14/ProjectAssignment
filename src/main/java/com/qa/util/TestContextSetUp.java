@@ -9,7 +9,6 @@ public class TestContextSetUp {
 	public WebDriver driver;
 	public PageObjManager pm;
 	public TestBase testbase;
-	public CommonMethods cm;
 	
 
 	public TestContextSetUp() {
@@ -17,7 +16,6 @@ public class TestContextSetUp {
 		try {
 			driver = testbase.WebDriverManager();
 			pm=new PageObjManager(driver);
-			cm= new CommonMethods(driver);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

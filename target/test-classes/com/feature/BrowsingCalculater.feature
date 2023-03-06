@@ -13,7 +13,7 @@ Feature: Borrowing Calculator
     And User enters Other loan monthly repayments "0"
     And User enters Other monthly commitments "100"
     And User enters credit card limits "10000"
-    And User clicks on the 'Work out how much I could borrow' button
+    And User clicks on the borrow button
     Then User should see the borrowing estimate.
 
  
@@ -30,7 +30,7 @@ Feature: Borrowing Calculator
     And User enters Other loan monthly repayments "0"
     And User enters Other monthly commitments "100"
     And User enters credit card limits "10000"
-    And User clicks on the 'Work out how much I could borrow' button
+    And User clicks on the borrow button
     And User should see the borrowing estimate.
     Then User clicks on startover button
     And all the form fields should be reset to their default values

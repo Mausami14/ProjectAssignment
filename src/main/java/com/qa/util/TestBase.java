@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.io.FileNotFoundException;
 import java.time.Duration;
 
+import static com.qa.util.Constants.URL;
+
 public class TestBase {
 
     public WebDriver driver;
@@ -17,7 +19,7 @@ public class TestBase {
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-            driver.get("https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/");
+            driver.get(URL);
 
         }
 
