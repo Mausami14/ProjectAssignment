@@ -1,5 +1,5 @@
 # Selenium Test Project with Cucumber and Webdriver
-This project demonstrates how to automate testing of the borrowing calculator on ANZ's website using Selenium, Cucumber, and Webdriver. The tests are written in Java.
+This project demonstrates how to automate testing of the borrowing calculator on given website using Selenium, Cucumber, and Webdriver. The tests are written in Java.
 
 Prerequisites
 Java JDK 8 or higher
