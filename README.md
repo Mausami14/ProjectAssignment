@@ -11,6 +11,11 @@ Open Eclipse or your IDE of choice, and import the project as a Maven project.
 Download the latest version of chromedriver from here and add it to your system PATH.
 # Run the TestRunner.java 
 file located in the src/test/java folder as a JUnit test.
+or from bash terminal
+```
+mvn test -Dcucumber.options="src/test/resources/features/<feature_file_name>.feature"
+```
+Also, make sure that you have set the webdriver.chrome.driver system property to the path of your chromedriver executable.
 ## Project structure
 The project is organized as follows:
 
